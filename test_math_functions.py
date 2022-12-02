@@ -20,3 +20,10 @@ def test_calc_divide():
     output = divide_numbers(10,2)
     assert output == 5
 
+def test_square():
+    output = square_number(2)
+    assert output == 4
+
+def test_remainder():
+    output = remainder_numbers(10,3)
+    assert output == 1
